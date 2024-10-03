@@ -1,0 +1,37 @@
+.about-us-container {
+    padding: 40px 0;
+  }
+  
+  .carousel-item img {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  h2, h3 {
+    color: #2c3e50; /* Healthy and refreshing color */
+  }
+  
+  p {
+    color: #7f8c8d;
+  }
+  
+  .text-center p.lead {
+    margin: 20px 0;
+  }
+  
+  .text-center h2 {
+    color: #27ae60; /* A green color symbolizing health */
+  }
+  
+  .carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.6); /* A semi-transparent background for better readability */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  

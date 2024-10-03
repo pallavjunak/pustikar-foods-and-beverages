@@ -1,0 +1,60 @@
+/* Card Styling for Products */
+.product-card {
+    border: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* See More Link Styling */
+  .see-more-link {
+    text-decoration: none;
+    color: #ff6347; /* Tomato color */
+    font-size: 1.1rem;
+  }
+  
+  .see-more-link:hover {
+    text-decoration: underline;
+    color: #ff4500;
+  }
+  
+  /* Button Animation */
+  .animate-btn {
+    position: relative;
+    display: inline-block;
+    background-color: #ff6347;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .animate-btn:hover {
+    background-color: #ff4500;
+    animation: bounce 0.5s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+  

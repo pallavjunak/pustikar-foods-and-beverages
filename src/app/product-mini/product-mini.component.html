@@ -1,0 +1,52 @@
+<div class="container my-5">
+    <h2 class="text-center mb-4">Featured Products</h2>
+    <div class="row">
+      <!-- Product 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text">This is a brief description of Product 1.
+                <a routerLink="/products" class="see-more-link">See More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">This is a brief description of Product 2.
+                <a routerLink="/products" class="see-more-link">See More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">This is a brief description of Product 3.
+                <a routerLink="/products" class="see-more-link">See More</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- See More Link -->
+    <!-- <div class="text-center">
+      <a routerLink="/products" class="see-more-link">See More Products</a>
+    </div> -->
+    <!-- Show All Products Button with Animation -->
+    <div class="text-center mt-4">
+      <button (click)="goToProducts()" class="btn btn-primary show-all-button animate-btn">
+        Show All Products
+      </button>
+    </div>
+  </div>
+  

@@ -1,0 +1,38 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Keeps it above other content */
+  background-color: #fff; /* Optional: Set the background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow */
+}
+
+.nav-item {
+    font-size:18px;
+    text-transform:uppercase;
+    height:82px;
+    line-height:64px;
+  }
+  .flare {
+    background:#ef662b;
+  }
+  .flare a.nav-link {
+    color:#fff !important
+  }
+  .topbarElements > div:nth-of-type(1){
+    font-size:48px;
+    margin:12px 32px;
+    color:#ef662b
+  }
+  @media screen and (min-width:1040px){
+    .flare { margin-right:-15px; }
+  }
+  @media screen and (max-width:1029px){
+    .navbar-nav {
+      margin-bottom:15px;
+      text-align:center
+    }
+    .nav-item {
+      background : rgba(255,255,255,0.1);
+      margin:2px;
+    }
+  }
